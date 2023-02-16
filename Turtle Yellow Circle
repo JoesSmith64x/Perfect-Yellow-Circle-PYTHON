@@ -1,0 +1,12 @@
+import turtle
+a = 3
+turtle.speed(0)
+turtle.shapesize(3)
+turtle.begin_fill()
+turtle.fillcolor('yellow')
+for i in range(120):
+    turtle.fd(a)
+    turtle.lt(3)
+turtle.end_fill()
+
+turtle.done()
